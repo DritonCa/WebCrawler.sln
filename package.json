@@ -1,0 +1,20 @@
+{
+  "name": "web-crawler",
+  "version": "0.0.0",
+  "description": "WebCrawler",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "eslintConfig": {},
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^22.6.1"
+  }
+}
