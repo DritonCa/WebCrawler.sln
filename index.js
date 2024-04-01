@@ -98,6 +98,7 @@ app.post('/crawl', async (req, res) => {
         res.json(filteredData);
     } catch (error) {
         res.status(500).send(error.message);
+        console.log(error.message);
     }
 });
 
